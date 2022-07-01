@@ -1,0 +1,30 @@
+<!doctype html>
+	<html>
+		
+        <head>
+        	<title>Bordas</title>
+        	<meta charset="utf-8"/>
+        	<style type="text/css">
+             
+             div {
+                border-color: royalblue blueviolet yellowgreen pink;
+                border-width: 5px 8px;
+                border-style: solid dotted solid dotted;
+                 }
+                
+            </style>
+               
+        </head>
+
+        <body>   
+       
+             <div>
+            Conteúdo<br/>
+            Conteúdo<br/>
+            Conteúdo<br/>
+             </div>
+        
+        </body>
+
+
+</html>
