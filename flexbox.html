@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <style>
+            .box{
+                background-color:aquamarine;
+                border-radius: 5px;
+                margin: 2px;
+                padding: 10px;
+            }
+            .flex-container{
+                display: flex;
+            }
+
+            .flex-container1{
+                display: flex;
+                justify-content: center;
+            }
+
+            .flex-container2{
+            display: flex;
+            justify-content: right;
+            flex-wrap: wrap;
+            }
+
+
+            .flex-container3{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
+            .flex-container4{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items:flex-end;
+            }
+
+            .flex-container5{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items:flex-end;
+            }
+
+            .flex-container5 .box3{
+                background-color: blanchedalmond;
+                align-self: center;
+                flex:1 1 auto
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+    <h1>Flexbox</h1>
+    <p>Flexbox is single-dimensional, which means you can align it either along a row or a column and it is set to row alignment by default.</p>
+    <img src="Capturar.PNG">
+
+
+    <h3>Box Properties</h3>
+    <p> Original HTML code with CSS style:</p>
+    <div class="Container">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+
+    <h3>FlexBox Properties</h3>
+    <p> Original HTML code with CSS style:</p>
+    <div class="flex-container">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+
+    <h3>Alignment properties</h3>
+
+    <p>Main properties used to alighn a flex container and items present inside it:
+    </p>
+
+    <ul>
+        <li>justify-content. For item alignment on main axis.</li>
+        <li>align-items. For item alignment on cross axis.</li>
+        <li>align-self. For unique flex items on cross axis.</li>
+        <li>align-content. Used for packing flex lines and control over space.</li>
+    
+    </ul>
+
+
+    <div class="flex-container1">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+    
+    <div class="flex-container2">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+<br>
+    <div class="flex-container3">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+<br>
+    <div class="flex-container4">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+<br>
+    <div class="flex-container5">
+        <div class="box box1">One</div>
+        <div class="box box2">  Two</div>
+    <div class="box box3">  Three</div>
+    <div class="box box4">  Four</div>
+    <div class="box box5">  Five</div>
+    <div class="box box6">  Six</div>
+    <div class="box box7">  Seven</div>
+    </div>
+    
+
+
+
+
+
+
+    </body>
+    
+
+
+
+
+
+
+
+</html>
