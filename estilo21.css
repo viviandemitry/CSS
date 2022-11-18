@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(37, 37, 131);
+}
+
+#box{
+    width: 600px;
+    height: 600px;
+    background: url("img/logosegredos.png");
+    background: linear-gradient(to bottom, white, rgb(17, 17, 139));
+    
+    
+   
+    border-radius:20px 100px;}
+
+#box h1{
+    color: rgb(37, 37, 131);
+    font-size: 30px;
+    width: 300px
+    margin: auto;
+}    
+
+p{
+    background: white;
+
+    border-radius: 30px;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+}
+   
